@@ -1,0 +1,34 @@
+{
+  "name": "angular-pako",
+  "version": "1.0.0",
+  "description": "Browserified Angular service for the javascript pako compression library.",
+  "main": "angular-pako.js",
+  "dependencies": {
+    "pako": "^1.0.6"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-karma": "^2.0.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-fixture": "^0.2.6",
+    "karma-jasmine": "^1.1.0",
+    "karma-json-fixtures-preprocessor": "0.0.6",
+    "karma-mocha-reporter": "^2.2.4",
+    "karma-phantomjs-launcher": "^1.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "browserify",
+    "pako",
+    "javascript"
+  ],
+  "author": "Jon Watson",
+  "license": "MIT"
+}

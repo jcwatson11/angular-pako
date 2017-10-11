@@ -1,0 +1,29 @@
+{
+  "name": "angular-pako",
+  "description": "Browserified Angular service for the javascript pako compression library.",
+  "main": "angular-pako.js",
+  "authors": [
+    "Jon Watson"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "browserify",
+    "pako",
+    "javascript"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.5"
+  }
+}
