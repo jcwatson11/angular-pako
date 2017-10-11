@@ -1,6 +1,6 @@
 =Angular Pako extension for Angular 1.5.x (ngPako)
 
-The (pako javascript library)[https://github.com/nodeca/pako] offers an extensive set of compression and decompression features for javascript based on zlib.
+The [pako javascript library](https://github.com/nodeca/pako) offers an extensive set of compression and decompression features for javascript based on zlib.
 
 However, the package is not web ready, and must be browserified, (or web-packed) in order to be used with any client-side browser library.
 
