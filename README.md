@@ -8,7 +8,7 @@ This package contains a pre-browserified version of the pako library wrapped in 
 
 ## Installation
 ```
-bower insttall ngPako
+bower insttall ngpako
 ```
 
 ## Usage
