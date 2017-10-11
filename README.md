@@ -23,10 +23,10 @@ angular.module('myModule', ['ngPako'])
         var myString = "Compress me.";
 
         // Compressing the data...
-        var compressed = pako.deflate(myString);
+        var compressed = pako.deflate(myString, {to: 'string'});
 
         // Viewing the data with the console log.
-        $log.log('This is compressed binary data: ', compressed);
+        $log.log('This is compressed binary data as a string: ', compressed);
     }
 ]);
 ```
